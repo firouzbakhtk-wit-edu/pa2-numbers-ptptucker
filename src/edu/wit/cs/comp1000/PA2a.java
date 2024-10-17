@@ -38,7 +38,6 @@ public class PA2a {
         double avgNonPositive = countNonPositive > 0 ? (double) sumNonPositive / countNonPositive : 0.0;
         
         String PluralPositive= "";
-        
         if (countPositive != 1){
         	PluralPositive="s";
         }
